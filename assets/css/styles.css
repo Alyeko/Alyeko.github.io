@@ -30,12 +30,12 @@ section{
 }
 
 .section-4 {
-	background-color: #0673647;
+	background-color: #DDCCE7;
 	padding: 0.2rem;
 }
 
 a.nav-item {
-	color: #dfdfdf;
+	color: #0E0C0F;
 }
 
 a.nav-item:hover {
@@ -90,7 +90,7 @@ a.nav-item:hover {
 
 @media screen and (max-width: 768px) {
 	.nav-menu {
-		background-color: #063647;
+		background-color: #DDCCE7;
 	}
 
 	.nav-toggle:hover {
@@ -98,7 +98,7 @@ a.nav-item:hover {
 	}
 
 	.nav-toggle span {
-		background-color: #dfdfdf;
+		background-color: #DDCCE7;
 	}
 
 	.nav-toggle span:hover {
