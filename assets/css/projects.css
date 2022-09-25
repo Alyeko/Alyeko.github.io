@@ -41,7 +41,7 @@ h1.section-header {
   font-size: 1.3rem;
   text-transform: lowercase;
   text-align: left;
-/*   text-decoration: underline; */
+  text-decoration: underline;
 }
 
 #content {
@@ -78,18 +78,18 @@ a.project-link {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: dense;
-  column-gap: 3rem;
+  column-gap: 1rem;
   margin: auto;
 }
 
 .project-wrapper,
 .project-description {
-  width: 250%;
+  width: 95%;
 }
 
 .project-wrapper img {
   width: 100%;
-   margin-bottom: 2em; /*prev 1em */
+  margin-bottom: 1em;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
 }
 
@@ -183,7 +183,7 @@ li .project-description {
   column-gap: 2rem;
   margin-top: 0;
   padding-top: 0;
-  max-width: 1500px;
+  max-width: 500px;
   margin: auto;
   text-align: left;
 }
@@ -193,7 +193,7 @@ a {
   color: black;
   text-decoration: none;
   /* background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
-  background-image: linear-gradient(120deg, #583489 0%, #583489 100%);
+  background-image: linear-gradient(120deg, #98ff98 0%, #98ff98 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: 0 88%;
@@ -208,7 +208,7 @@ a:hover {
 /* global */
 #intro {
   display: flex;
-  max-width: 1500px;
+  max-width: 500px;
   text-align: left;
   align-content: flex-start;
   align-items: center;
@@ -222,7 +222,7 @@ h2 {
 p {
   text-align: left;
   margin: auto;
-  max-width: 800px;
+  max-width: 600px;
   font-size: 1.3rem;
   line-height: 1.6;
   font-family: "Roboto";
