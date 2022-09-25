@@ -78,18 +78,18 @@ a.project-link {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: dense;
-  column-gap: 3rem;
+  column-gap: 5rem;
   margin: auto;
 }
 
 .project-wrapper,
 .project-description {
-  width: 150%;
+  width: 250%;
 }
 
 .project-wrapper img {
   width: 100%;
-  margin-bottom: 1em;
+   margin-bottom: 2em; /*prev 1em */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
 }
 
