@@ -1,5 +1,6 @@
 html, body{
 	font-size:18px;
+	font-family: "Roboto";
 	color: #0E0C0F;
 	background-color: #DDCCE7; 
 }
@@ -74,12 +75,14 @@ a.nav-item:hover {
 
 .title {
 	color: #fff;
+	font-family: "Roboto";
 	text-align: left;
 	margin-bottom: 2rem;
 }
 
 .intro {
 	text-align: justify;
+	font-family: "Roboto";
 	width: 80%;
 	margin: 0 auto;
 }
