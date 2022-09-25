@@ -41,7 +41,7 @@ h1.section-header {
   font-size: 1.3rem;
   text-transform: lowercase;
   text-align: left;
-  text-decoration: underline;
+/*   text-decoration: underline; */
 }
 
 #content {
@@ -84,7 +84,7 @@ a.project-link {
 
 .project-wrapper,
 .project-description {
-  width: 95%;
+  width: 150%;
 }
 
 .project-wrapper img {
@@ -183,7 +183,7 @@ li .project-description {
   column-gap: 2rem;
   margin-top: 0;
   padding-top: 0;
-  max-width: 500px;
+  max-width: 1500px;
   margin: auto;
   text-align: left;
 }
@@ -208,7 +208,7 @@ a:hover {
 /* global */
 #intro {
   display: flex;
-  max-width: 500px;
+  max-width: 1500px;
   text-align: left;
   align-content: flex-start;
   align-items: center;
@@ -222,7 +222,7 @@ h2 {
 p {
   text-align: left;
   margin: auto;
-  max-width: 600px;
+  max-width: 800px;
   font-size: 1.3rem;
   line-height: 1.6;
   font-family: "Roboto";
