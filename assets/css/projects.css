@@ -39,8 +39,8 @@ h1.section-header {
   margin-bottom: 0.5rem;
   padding-bottom: 0;
   font-size: 1.3rem;
-  text-transform: lowercase;
-  text-align: left;
+/*   text-transform: lowercase; */
+/*   text-align: left; */
 /*   text-decoration: underline; */
 }
 
