@@ -38,9 +38,10 @@ h1.section-header {
   padding-top: 1.3rem;
   margin-bottom: 0.5rem;
   padding-bottom: 0;
+  padding-left: 0px;
   font-size: 1.3rem;
 /*   text-transform: lowercase; */
-  text-align: center;
+  text-align: left;
 /*   text-decoration: underline; */
 }
 
