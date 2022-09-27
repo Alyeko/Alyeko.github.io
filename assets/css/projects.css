@@ -116,15 +116,15 @@ li:hover .project-description:not(.no-hover) {
 }
 
 li img {
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 li:hover img:not(.no-hover) {
-  -ms-transform: scale(1.02);
-  -webkit-transform: scale(1.02);
-  transform: scale(1.02);
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 li .project-description {
@@ -155,7 +155,7 @@ li .project-description {
   }
 }
 
-@media (max-width: 740px) {  /* prev-> 740px*/
+@media (max-width: 8250px) {  /* prev-> 740px*/
   #static-content {
     padding: 0;
   }
