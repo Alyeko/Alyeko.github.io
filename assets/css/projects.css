@@ -116,9 +116,9 @@ li:hover .project-description:not(.no-hover) {
 }
 
 li img {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 li:hover img:not(.no-hover) {
@@ -231,7 +231,7 @@ p {
 
 h1 {
   text-align: left;
-  font-size: 1.3rem;  /* prev-> 2.5*/
+  font-size: 1.6rem;  /* prev-> 2.5*/
   max-width: 600px;
   font-weight: 900;
   font-family: "Roboto";
