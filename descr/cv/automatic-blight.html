@@ -58,7 +58,34 @@
       <div id="static-content">     
         <h1 class="section-header">Automatic Blight Disease Dectection in Potato and Tomato Plants</h1>
       </div>
-       
+      
+      <div class="container"></br>
+				<p class="intro">
+					<b>Tools Used: Python, Pytorch, Optuna</b>
+							
+			    		<b>Description** </b>
+					In this project, a ResNet-9 model was built and used for image classification of potato and tomato plant leaf images 
+					in order to detect blight diseases (early blight and late blight) in these images.
+			                <br />
+					
+					<b>Processes followed</b> <br/>
+					1. Data Augmentation (center cropping, gaussian blurring and random rotation) on plant leaf images <br/>
+					2. Hyperparameter tuning in Optuna <br/>
+					3. ResNet-9 model implementation and training in Pytorch <br/>
+					4. VGG-16 baseline model implementation and training <br/>
+					5. ResNet-9 model evaluation and comparison with VGG-16 baseline model <br/>
+					6. Shapley values and saliency maps used to explain ResNet-9 model predictions <br/>
+
+					<b>Results</b> <br/>
+					ResNet-9 test accuracy : 99.25% <br/>
+					VGG-16 test accuracy : 97.90 <br/>
+					Saliency maps proved that the ResNet-9 model works as expected <br/>
+
+					<img src="/images/sal_map16.png?raw=true"/>
+					[Github link](https://github.com/Alyeko/potato-tomato-blight-disease-detection)
+				        </p>
+				
+			</div>
       
 <!--       </div>
       </div> -->
