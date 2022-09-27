@@ -122,9 +122,9 @@ li img {
 }
 
 li:hover img:not(.no-hover) {
-  -ms-transform: scale(1.3);
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
+  -ms-transform: scale(1.06);
+  -webkit-transform: scale(1.06);
+  transform: scale(1.06);
 }
 
 li .project-description {
@@ -155,7 +155,7 @@ li .project-description {
   }
 }
 
-@media (max-width: 8250px) {  /* prev-> 740px*/
+@media (max-width: 760px) {  /* prev-> 740px*/
   #static-content {
     padding: 0;
   }
