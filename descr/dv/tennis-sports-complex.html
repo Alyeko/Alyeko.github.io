@@ -64,34 +64,24 @@
 					<b>Decision Making System for Tennis Sports Complex</b><br/>
 					<br/>
 					
-					<b>Tools Used:</b> Python, Pytorch, Optuna  <br/>
+					<b>Tools Used:</b> PostgreSQL, QGIS <br/>
 					
 					<br/>		
-			    		<b>Description</b>  <br/>
-					In this project, a ResNet-9 model was built and used for image classification of potato and tomato plant leaf images 
-					in order to detect blight diseases (early blight and late blight) in these images. The motivation for doing this was 
-					to come up with a tool which helps farmers detect blight diseases faster and more effectively. <br />
-					
-			                <br />
-					<center><img src="https://alyeko.github.io/assets/img/Methodology_workflow.png?raw=true" style="width:40%"/></center> <br />
-					
-					<br />
-					<b>Processes followed</b> <br/>
-					1. Data Augmentation (center cropping, gaussian blurring and random rotation) on plant leaf images <br/>
-					2. Hyperparameter tuning in Optuna <br/>
-					3. ResNet-9 model implementation and training in Pytorch <br/>
-					4. VGG-16 baseline model implementation and training <br/>
-					5. ResNet-9 model evaluation and comparison with VGG-16 baseline model <br/>
-					6. Shapley values and saliency maps used to explain ResNet-9 model predictions <br/>
+			    		<b>Description</b><br/>
+					In this project, a spatial database was created in PostgreSQL from scratch, 7 decisions were made with the data created and a QGIS visualization was finally made.
+
+					**Processes followed** <br/>
+					1. Tables were created together with unique and check constraints <br/>
+					2. Data was inserted into the tables <br/>
+					3. Views were created to aid in simpler querying for decision making <br/>
+					4. The data was then finally visualized in QGIS <br/>
+					<br/>
 
 					<br/>
 					<b>Results</b> <br/>
-					ResNet-9 test accuracy : 99.25% <br/>
-					VGG-16 test accuracy : 97.90 <br/>
-					Saliency maps proved that the ResNet-9 model works as expected by looking at diseased areas and general green areas of the leaves to make predictions <br/>
-					
+					A spatial database which contains all the important information about the database, which can be queried to aid in the effective decision making and smooth runnng of the tennis sports complex
 					<br/>
-					<img src="https://alyeko.github.io/assets/img/tennis-sports-complex.html?raw=true"/>
+					<center><img src="https://alyeko.github.io/assets/img/QGIS screenshot showing the 5 layers.png?raw=true"/></center>
 					<br/>
 					<a class="bold" target="_blank" rel="noopener noreferrer" href="mailto:aanimayeko@gmail.com">
 					Kindly message me for access to the github repo
