@@ -1,1 +1,101 @@
-Spatial Variation of Geospatial Jobs in England
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spatial Variation of Geospatial Jobs in England</title> 
+	<link rel="icon" href="https://alyeko.github.io/assets/img/miniportfolio-pic.png" />  
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="https://alyeko.github.io/assets/css/styles.css">
+	
+	<meta name="author" content="Spatial Variation of Geospatial Jobs in England">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://alyeko.github.io/assets/css/projects.css" />
+</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="nav container void-background">
+			<!-- This "nav-menu" is hidden on mobie -->
+			<!-- Add the modifier "is-active" to display it on mobile -->
+			<div class="nav-left">
+				<a href="https://www.linkedin.com/in/alberta-odamea-anim-ayeko/" class="nav-item">
+					<img src="https://alyeko.github.io/assets/svgs/linkedin.svg"></img>
+				</a>
+				
+				<a href="https://kaggle.com/alyeko" class="nav-item">
+					<img src="https://alyeko.github.io/assets/svgs/kaggle.svg"></img>
+				</a>
+				
+				<a href="https://github.com/alyeko" class="nav-item">
+					<img width="25px" height="25px" src="https://alyeko.github.io/assets/svgs/github.svg"></img>
+				</a>
+				
+				<a href="https://medium.com/@alyeko" class="nav-item">
+					<img src="https://alyeko.github.io/assets/svgs/medium.svg"></img>
+				</a>
+				
+				<a href="mailto:aanimayeko@gmail.com" class="nav-item">
+					<img width="25px" height="25px" src="https://alyeko.github.io/assets/svgs/Gmail.svg"></img>
+				</a>
+			  		
+			</div>
+			
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="https://alyeko.github.io">About Me</a>
+				<a class="nav-item" href="https://alyeko.github.io/projects1.html">Projects</a>
+			</div>
+
+			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
+    
+    <main>
+<!--       <div id="static-content">     
+        <h1 class="section-header">Automatic Blight Disease Dectection in Potato and Tomato Plants</h1>
+      </div> -->
+      
+      <div class="container"></br>
+				<p class="intro">
+					<b>Spatial Variation of Geospatial Jobs in England</b><br/>
+					<br/>
+					<b>Tools Used:</b> Python, Selenium, Geopandas, Matplotlib<br/>
+					
+					<br/>		
+			    		<b>Description</b><br/>
+					For the months, October and November, 2021, in order to see how geospatial jobs varied from one English
+          region to another, job posts that contained the word geospatial(either in the job title or description) 
+          were scraped from LinkedIn, cleaned and stored in a csv file, in order to explore and visualize the data.
+
+          After exploring the csv data(non-spatial data), it was merged with England shapefile(spatial data) on the
+          column('FILE_NAME') which was common to both datasets. The combined data was then visualized with geopandas 
+          and matplotlib. <br/>
+
+					<br/>
+					<b>Processes followed</b><br/>
+					1. Geospatial Jobs were scraped from LinkedIn with the help of selenium, cleaned and stored as a csv file. <br/>
+					2. The data was analyzed and visualized to see which companies had open geospatial jobs in these two months. <br/>
+					3. A choropleth map was made by merging the csv data was and England spatial data (shapefile) to visualize 
+          the number of Geospatial jobs in the different English areas. <br/>
+          
+					<br/>
+					<b>Results</b> <br/>
+					A choropleth map with different colours signifying the availability of geospatial roles in the different English regions<br/>
+					
+					<br/>
+					<center><img src="https://alyeko.github.io/assets/img/spatial_var_gspl_jobs.PNG?raw=true" style="width:80%"/></center>
+					<br/>
+					<a class="bold" target="_blank" rel="noopener noreferrer" href="https://github.com/Alyeko/Geospatial-jobs-England-OctNov-21">
+						 Link to the github repo </a> 
+					</p>
+			</div>
+      
+<!--       </div>
+      </div> -->
+    </main>
+  </body>
+</html>
