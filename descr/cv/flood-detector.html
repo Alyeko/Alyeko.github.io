@@ -64,18 +64,21 @@
 					<b>Semantic Segmentation of Floodwater in the Cloud to Street -Microsoft Floods Dataset</b><br/>
 					<br/>
 					
-					<b>Tools Used:</b> Python, Pytorch, Optuna, Radiant_mlhub<br/>
+					<b>Tools Used:</b> Python, Pytorch, Optuna, Radiant-MLhub API, Flask<br/>
 					
 					<br/>		
 			    		<b>Description</b>  <br/>
 					In this project, a custom Pytorch dataset class was created which is able to ingest both Sentinel-1 and Sentinel-2 
         				satellite imagery from the Radiant Machine Learning Hub API. The model implemented for this project was a UNet model
-         				which detects flood water in the Sentinel-2 test dataset with an MIoU score of 0.74, after upsampling the training dataset.<br />
-					
+         				which detects flood water in the Sentinel-2 test dataset with an MIoU score of 0.74, after upsampling the training dataset.
+					<br />
+					<br />
+					The model was finally deployed with the help of Flask and the Swagger UI
+					<br />
 <!-- 			                <br /> -->
 <!-- 					<center><img src="https://alyeko.github.io/assets/img/Methodology_workflow.png?raw=true" style="width:40%"/></center> <br /> -->
 					
-          <br />
+         				<br />
 					<b>Processes followed</b> <br/>
 					1. Data download and extraction from the radiant-mlhub api <br/>
 					2. Basic data exploration <br/>
